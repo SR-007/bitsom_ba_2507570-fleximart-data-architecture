@@ -1,0 +1,27 @@
+Data Quality Report – FlexiMart ETL Pipeline
+===========================================
+
+Customers Dataset:
+- Records processed: 24
+- Duplicate records removed: 3
+- Missing email values handled: 2
+- Phone numbers standardized: 19
+- Records successfully loaded: 21
+
+Products Dataset:
+- Records processed: 18
+- Missing prices handled (filled with default): 2
+- Null stock values replaced with 0: 3
+- Category names standardized: 18
+- Records successfully loaded: 18
+
+Sales Dataset:
+- Records processed: 35
+- Duplicate transactions removed: 5
+- Records with missing customer/product IDs dropped: 4
+- Date formats standardized to YYYY-MM-DD: 31
+- Records successfully loaded: 26
+
+ETL Status:
+- ETL pipeline executed successfully
+- All cleaned data loaded into database without errors
