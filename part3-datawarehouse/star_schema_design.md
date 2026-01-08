@@ -109,3 +109,4 @@ dim_customer
   city: 'Mumbai'
 }
 
+This star schema supports efficient OLAP queries and aggregations.
