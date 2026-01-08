@@ -1,3 +1,5 @@
+This analysis demonstrates document-based modeling for FlexiMart products.
+
 Section A: Limitations of RDBMS (Relational Databases)
 Relational databases like MySQL are well-suited for structured and consistent data but struggle when dealing with highly diverse and evolving product information. In FlexiMart’s case, products across categories such as electronics, apparel, and footwear have very different attributes. For example, laptops require specifications like RAM, processor, and storage, while shoes need size, color, and material. In a relational database, this leads to frequent schema changes or the creation of many nullable columns, resulting in sparse tables and poor design.
 Additionally, relational schemas are rigid, making frequent schema modifications expensive and risky when new product types are introduced. Another major limitation is handling nested data such as customer reviews. Reviews must be stored in separate tables and joined repeatedly, which increases query complexity and reduces performance. As product variety and review volume grow, these joins become inefficient and harder to maintain, making RDBMS less suitable for this use case.
