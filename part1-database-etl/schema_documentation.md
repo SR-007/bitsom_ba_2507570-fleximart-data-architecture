@@ -124,3 +124,6 @@ The FlexiMart database schema follows **Third Normal Form (3NF)** principles:
 |--------------|----------|------------|----------|----------|
 | 1 | 1 | 1 | 1 | 25000 |
 | 2 | 1 | 2 | 1 | 3000 |
+
+## Notes
+This schema supports scalable ETL and reporting use cases.
