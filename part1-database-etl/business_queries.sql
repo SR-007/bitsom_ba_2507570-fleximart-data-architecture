@@ -1,3 +1,4 @@
+-- Business queries for FlexiMart reporting and analysis
 -- =====================================================
 -- Query 1: Customer Purchase History
 -- Business Question:
